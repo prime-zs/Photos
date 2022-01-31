@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Lenses</string>
+
+    <string name="storage_permission_message">In order to work properly the app requires permission to your devices storage (Photos, Media and Files).</string>
+    <string name="storage_permission">Storage\nPermission</string>
+    <string name="dismiss">Dismiss</string>
+
+    <plurals name="item">
+        <item quantity="zero">no items</item>
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d items</item>
+    </plurals>
+
+</resources>
