@@ -10,8 +10,8 @@ import javax.inject.Singleton
 class Repository(@ApplicationContext context: Context) {
 
 
-    val videosDb = GetVideosDb(context)
-    val photosDb = GetPhotosDb(context)
+    private val videosDb = GetVideosDb(context)
+    private val photosDb = GetPhotosDb(context)
 
     init {
         // launch on every time app is launched.
